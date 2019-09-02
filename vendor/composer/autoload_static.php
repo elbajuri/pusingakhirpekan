@@ -14,10 +14,17 @@ class ComposerStaticInit223f96bb5a2b505b679cab6f43b4a9bb
     );
 
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'SimpleCrud\\' => 11,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Psr\\EventDispatcher\\' => 20,
+            'ParagonIE\\EasyDB\\' => 17,
+            'ParagonIE\\Corner\\' => 17,
         ),
         'M' => 
         array (
@@ -33,9 +40,18 @@ class ComposerStaticInit223f96bb5a2b505b679cab6f43b4a9bb
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'A' => 
+        array (
+            'Atlas\\Query\\' => 12,
+            'Atlas\\Pdo\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'SimpleCrud\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simple-crud/simple-crud/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -43,6 +59,18 @@ class ComposerStaticInit223f96bb5a2b505b679cab6f43b4a9bb
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
+        ),
+        'ParagonIE\\EasyDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paragonie/easydb/src',
+        ),
+        'ParagonIE\\Corner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paragonie/corner/src',
         ),
         'Monolog\\' => 
         array (
@@ -63,6 +91,14 @@ class ComposerStaticInit223f96bb5a2b505b679cab6f43b4a9bb
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Atlas\\Query\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/atlas/query/src',
+        ),
+        'Atlas\\Pdo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/atlas/pdo/src',
         ),
     );
 

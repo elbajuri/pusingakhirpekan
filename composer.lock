@@ -4,8 +4,116 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e44da62461c7875753164056c29ee477",
+    "content-hash": "af1948a4aa959c89ce943456c8178892",
     "packages": [
+        {
+            "name": "atlas/pdo",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atlasphp/Atlas.Pdo.git",
+                "reference": "31e9aa28f86d999260ac842da45a81f46b8c4826"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atlasphp/Atlas.Pdo/zipball/31e9aa28f86d999260ac842da45a81f46b8c4826",
+                "reference": "31e9aa28f86d999260ac842da45a81f46b8c4826",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "pds/skeleton": "~1.0",
+                "phpunit/phpunit": "~7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Atlas\\Pdo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Atlas.Pdo Contributors",
+                    "homepage": "https://github.com/atlasphp/Atlas.Pdo/contributors"
+                }
+            ],
+            "description": "Provides a PDO instance decorator with convenience methods, and a connection manager.",
+            "homepage": "https://github.com/atlasphp/Atlas.Pdo",
+            "keywords": [
+                "Connection",
+                "database",
+                "pdo",
+                "sql"
+            ],
+            "time": "2019-03-01T14:17:13+00:00"
+        },
+        {
+            "name": "atlas/query",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atlasphp/Atlas.Query.git",
+                "reference": "6b3e6fcc6ca9be8ac1685cfe8ccecf90e03e68dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atlasphp/Atlas.Query/zipball/6b3e6fcc6ca9be8ac1685cfe8ccecf90e03e68dc",
+                "reference": "6b3e6fcc6ca9be8ac1685cfe8ccecf90e03e68dc",
+                "shasum": ""
+            },
+            "require": {
+                "atlas/pdo": "~1.0",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "pds/skeleton": "~1.0",
+                "phpunit/phpunit": "~7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Atlas\\Query\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Atlas.Query Contributors",
+                    "homepage": "https://github.com/atlasphp/Atlas.Query/contributors"
+                }
+            ],
+            "description": "Object-oriented query builders for MySQL, Postgres, SQLite, and SQLServer.",
+            "homepage": "https://github.com/atlasphp/Atlas.Query",
+            "keywords": [
+                "database",
+                "db",
+                "delete",
+                "dml",
+                "insert",
+                "mysql",
+                "pdo",
+                "pgsql",
+                "postgres",
+                "postgresql",
+                "query",
+                "select",
+                "sql",
+                "sql server",
+                "sqlite",
+                "sqlserver",
+                "update"
+            ],
+            "time": "2018-08-12T14:19:01+00:00"
+        },
         {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.3",
@@ -332,6 +440,154 @@
             "time": "2018-11-05T09:00:11+00:00"
         },
         {
+            "name": "paragonie/corner",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/corner.git",
+                "reference": "6a02dcefde29e795432a9a5850ff6c240dc596d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/corner/zipball/6a02dcefde29e795432a9a5850ff6c240dc596d2",
+                "reference": "6a02dcefde29e795432a9a5850ff6c240dc596d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7",
+                "vimeo/psalm": "^2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\Corner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com"
+                }
+            ],
+            "description": "Generic PHP Exceptions and Errors, made user-friendly.",
+            "time": "2018-12-20T23:52:02+00:00"
+        },
+        {
+            "name": "paragonie/easydb",
+            "version": "v2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/easydb.git",
+                "reference": "2fbe6283f3a60eb4e28d3e5fa5a9f3efc3945ebb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/easydb/zipball/2fbe6283f3a60eb4e28d3e5fa5a9f3efc3945ebb",
+                "reference": "2fbe6283f3a60eb4e28d3e5fa5a9f3efc3945ebb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "paragonie/corner": "^1|^2",
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6",
+                "psalm/plugin-phpunit": "<1",
+                "squizlabs/php_codesniffer": "^3",
+                "vimeo/psalm": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\EasyDB\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Arciszewski",
+                    "role": "Developer",
+                    "email": "scott@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                },
+                {
+                    "name": "Woody Gilk",
+                    "role": "Contributor",
+                    "homepage": "https://github.com/shadowhand"
+                },
+                {
+                    "name": "SignpostMarv",
+                    "role": "Contributor",
+                    "homepage": "https://github.com/SignpostMarv"
+                }
+            ],
+            "description": "Easy-to-use database abstraction",
+            "keywords": [
+                "database",
+                "pdo",
+                "security",
+                "sql"
+            ],
+            "time": "2019-08-15T22:59:14+00:00"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "1.0.1",
             "source": {
@@ -467,6 +723,57 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "simple-crud/simple-crud",
+            "version": "v7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/simple-crud.git",
+                "reference": "39fc1f000783c5b0ff116bcd95c6c53084f22cfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/simple-crud/zipball/39fc1f000783c5b0ff116bcd95c6c53084f22cfd",
+                "reference": "39fc1f000783c5b0ff116bcd95c6c53084f22cfd",
+                "shasum": ""
+            },
+            "require": {
+                "atlas/pdo": "^1.1",
+                "atlas/query": "^1.2",
+                "php": ">=7.2",
+                "psr/event-dispatcher": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.11",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimpleCrud\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "role": "Developer",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com"
+                }
+            ],
+            "description": "Create/Read/Update/Delete easily",
+            "homepage": "https://github.com/oscarotero/simple-crud",
+            "keywords": [
+                "crud",
+                "mysql",
+                "sqlite"
+            ],
+            "time": "2019-08-24T23:06:03+00:00"
         }
     ],
     "packages-dev": [],
